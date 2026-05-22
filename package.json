@@ -37,6 +37,9 @@
     "validate-commit-msg": "2.14.0",
     "vitest": "^1.2.1"
   },
+  "resolutions": {
+    "@ttsc/linux-x64": "file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -57,4 +60,3 @@
     "*.{js,css,md}": "prettier --write"
   }
 }
-

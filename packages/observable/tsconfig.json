@@ -6,6 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "inlineSources": true,
     "jsx": "react",
+    "lib": ["es2022", "dom", "dom.iterable", "esnext.disposable"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "noUncheckedIndexedAccess": true,

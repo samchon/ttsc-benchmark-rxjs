@@ -6,12 +6,11 @@
     "sourceMap": true,
     "strict": true,
     "noImplicitReturns": true,
-    "moduleResolution": "node",
     "stripInternal": true,
     "noEmit": true,
     "lib": ["esnext", "dom"],
     "target": "esnext",
-    "baseUrl": ".",
+    "plugins": [{ "transform": "@ttsc/lint" }],
     "paths": {
       "@rxjs/observable": ["../observable/src/index"],
       "rxjs": ["./src/index"],
