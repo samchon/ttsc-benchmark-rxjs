@@ -115,7 +115,7 @@ export function repeat<T>(countOrConfig?: number | RepeatConfig): MonoTypeOperat
   let count = Infinity;
   let delay: RepeatConfig['delay'];
 
-  if (countOrConfig != null) {
+  if (countOrConfig !== undefined) {
     if (typeof countOrConfig === 'object') {
       ({ count = Infinity, delay } = countOrConfig);
     } else {
@@ -133,7 +133,7 @@ export function repeat<T>(countOrConfig?: number | RepeatConfig): MonoTypeOperat
           const resubscribe = () => {
             sourceSub?.unsubscribe();
             sourceSub = null;
-            if (delay != null) {
+            if (delay !== undefined) {
               const notifier = typeof delay === 'number' ? timer(delay) : from(delay(soFar));
               const notifierSubscriber = operate({
                 destination,

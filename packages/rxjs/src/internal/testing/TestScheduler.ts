@@ -307,7 +307,7 @@ export class TestScheduler extends VirtualTimeScheduler {
             }
           }
 
-          throw new Error("there can only be '^' and '!' markers in a " + "subscription marble diagram. Found instead '" + c + "'.");
+          throw new Error(`there can only be '^' and '!' markers in a ` + `subscription marble diagram. Found instead '${  c  }'.`);
       }
 
       frame = nextFrame;
