@@ -21,6 +21,9 @@ importers:
       '@swc/helpers':
         specifier: ^0.3.2
         version: 0.3.17
+      '@ttsc/lint':
+        specifier: file:/tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz
+        version: file:../../../../../../../../../../../tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz
       '@types/chai':
         specifier: ^4.2.11
         version: 4.3.20
@@ -226,6 +229,10 @@ packages:
     resolution: {integrity: sha512-+/0ZScCT8xcf0pqhj+Oloz0m/Xl/gD0+JcxTI8MRuK1S3bxvNQiLNX+LLEQ+5NS2yVDoprTMWWZ3P3N4TeqpvQ==}
     cpu: [x64]
     os: [darwin]
+
+  '@ttsc/lint@file:../../../../../../../../../../../tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz':
+    resolution: {integrity: sha512-LFxxvSAoeBVbjEpgB8Nrn/wvpMACSf7YUmNMaIQq8amKYSwRL3ACt5+46La6t/I8oURFW2FlTOFcPcQJ3JfSOw==, tarball: file:../../../../../../../../../../../tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz}
+    version: 0.12.4
 
   '@ttsc/linux-arm64@0.12.4':
     resolution: {integrity: sha512-BG8vDcDGkmBVNpcB4uR+VGeO/tEfLCpRW+5RJqp3wNuuiP7/BXhmetMIO/ia0JFDJ440Zb/AVmWSArDdIjl/2Q==}
@@ -2318,6 +2325,8 @@ snapshots:
 
   '@ttsc/darwin-x64@0.12.4':
     optional: true
+
+  '@ttsc/lint@file:../../../../../../../../../../../tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz': {}
 
   '@ttsc/linux-arm64@0.12.4':
     optional: true

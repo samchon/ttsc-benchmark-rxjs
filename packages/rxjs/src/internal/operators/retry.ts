@@ -88,7 +88,7 @@ export function retry<T>(configOrCount: number | RetryConfig = Infinity): MonoTy
       count: configOrCount as number,
     };
   }
-  const { count = Infinity, delay, resetOnSuccess: resetOnSuccess = false } = config;
+  const { count = Infinity, delay, resetOnSuccess = false } = config;
 
   return count <= 0
     ? identity
@@ -121,7 +121,7 @@ export function retry<T>(configOrCount: number | RetryConfig = Infinity): MonoTy
                       }
                     };
 
-                    if (delay != null) {
+                    if (delay !== undefined) {
                       // The user specified a retry delay.
                       // They gave us a number, use a timer, otherwise, it's a function,
                       // and we're going to call it to get a notifier.
