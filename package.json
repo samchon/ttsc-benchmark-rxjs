@@ -24,6 +24,8 @@
   "devDependencies": {
     "@nx/eslint-plugin": "17.3.2",
     "@nx/js": "17.3.2",
+    "@ttsc/lint": "/tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz",
+    "@ttsc/linux-x64": "/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "cz-conventional-changelog": "1.2.0",
@@ -33,6 +35,7 @@
     "nx": "17.3.2",
     "ts-node": "^10.9.2",
     "tshy": "^1.11.0",
+    "ttsc": "/tmp/ttsc-tgz/ttsc-0.12.4.tgz",
     "typescript": "~5.3.3",
     "validate-commit-msg": "2.14.0",
     "vitest": "^1.2.1"
