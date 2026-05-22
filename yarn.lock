@@ -2986,6 +2986,10 @@
   resolved "https://registry.yarnpkg.com/@ttsc/darwin-x64/-/darwin-x64-0.12.4.tgz#b0b5c232780045bf2dbdbb32c9c0b4c4b7decfad"
   integrity sha512-+/0ZScCT8xcf0pqhj+Oloz0m/Xl/gD0+JcxTI8MRuK1S3bxvNQiLNX+LLEQ+5NS2yVDoprTMWWZ3P3N4TeqpvQ==
 
+"@ttsc/lint@/tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz":
+  version "0.12.4"
+  resolved "/tmp/ttsc-tgz/ttsc-lint-0.12.4.tgz#8df0c06c0eba1e04b10c9eb0fb2e522fe8f46eaa"
+
 "@ttsc/linux-arm64@0.12.4":
   version "0.12.4"
   resolved "https://registry.yarnpkg.com/@ttsc/linux-arm64/-/linux-arm64-0.12.4.tgz#fb09a7a37da3600bb8ee0fbf4a32087a510fc234"
@@ -2995,6 +2999,10 @@
   version "0.12.4"
   resolved "https://registry.yarnpkg.com/@ttsc/linux-arm/-/linux-arm-0.12.4.tgz#960f30a8778566893515be17c661583a8ae0117d"
   integrity sha512-5viZeo7lGn5MHOM8OGQ7iYuo0oqgLhvRAounPLx0ANm7NQuvgHxRUJQjM25HNAX7awG6ybU6fY3V8S//4GY+mw==
+
+"@ttsc/linux-x64@/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz":
+  version "0.12.4"
+  resolved "/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz#b30dd2e6a734bc65e79670eb341452b8a5f68b31"
 
 "@ttsc/linux-x64@0.12.4", "@ttsc/linux-x64@file:../../../../../../../../../tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz", "@ttsc/linux-x64@file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz":
   version "0.12.4"
@@ -16428,6 +16436,18 @@ tsutils@^3.21.0:
   integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
+
+ttsc@/tmp/ttsc-tgz/ttsc-0.12.4.tgz:
+  version "0.12.4"
+  resolved "/tmp/ttsc-tgz/ttsc-0.12.4.tgz#775d2d774909644eeea701d3e322144f90bc4c09"
+  optionalDependencies:
+    "@ttsc/darwin-arm64" "0.12.4"
+    "@ttsc/darwin-x64" "0.12.4"
+    "@ttsc/linux-arm" "0.12.4"
+    "@ttsc/linux-arm64" "0.12.4"
+    "@ttsc/linux-x64" "0.12.4"
+    "@ttsc/win32-arm64" "0.12.4"
+    "@ttsc/win32-x64" "0.12.4"
 
 "ttsc@file:../../../../../../../../../tmp/ttsc-tgz/ttsc-0.12.4.tgz":
   version "0.12.4"
