@@ -331,14 +331,14 @@ export function fromAjax<T>(init: AjaxConfig): Observable<AjaxResponse<T>> {
         // We have to do string concatenation here, because `new URL(url)` does
         // not like relative URLs like `/this` without a base url, which we can't
         // specify, nor can we assume `location` will exist, because of node.
-        url = `${parts[0]  }?${  searchParams}`;
+        url = `${parts[0]}?${searchParams}`;
       } else {
         // There is no preexisting querystring, so we can just use URLSearchParams
         // to convert the passed queryParams into the proper format and encodings.
         // queryParams is converted to any because the runtime is *much* more permissive than
         // the types are.
         searchParams = new URLSearchParams(queryParams as any);
-        url = `${url  }?${  searchParams}`;
+        url = `${url}?${searchParams}`;
       }
     }
 
@@ -464,7 +464,7 @@ export function fromAjax<T>(init: AjaxConfig): Observable<AjaxResponse<T>> {
       }
 
       const emitError = (status?: number) => {
-        const msg = `ajax error${  status ? ` ${  status}` : ''}`;
+        const msg = `ajax error${status ? ` ${status}` : ''}`;
         destination.error(new AjaxError(msg, xhr, _request));
       };
 

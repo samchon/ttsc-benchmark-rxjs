@@ -1,4 +1,4 @@
-import type { Observable} from '@rxjs/observable';
+import type { Observable } from '@rxjs/observable';
 import { from } from '@rxjs/observable';
 import type { ObservableInput, ObservableInputTuple, SchedulerLike } from '../types.js';
 import { mergeAll } from '../operators/mergeAll.js';

@@ -1,7 +1,7 @@
 import { not } from '../util/not.js';
 import { filter } from '../operators/filter.js';
 import type { ObservableInput } from '../types.js';
-import type { Observable} from '@rxjs/observable';
+import type { Observable } from '@rxjs/observable';
 import { from } from '@rxjs/observable';
 
 /** @deprecated Use a closure instead of a `thisArg`. Signatures accepting a `thisArg` will be removed in v8. */

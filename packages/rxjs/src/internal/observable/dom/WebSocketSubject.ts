@@ -1,4 +1,4 @@
-import type { Subscriber, Subscription} from '@rxjs/observable';
+import type { Subscriber, Subscription } from '@rxjs/observable';
 import { Observable, operate } from '@rxjs/observable';
 import type { NextObserver } from '../../types.js';
 

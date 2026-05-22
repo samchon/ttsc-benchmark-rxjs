@@ -1,7 +1,7 @@
 import { asyncScheduler } from '../scheduler/async.js';
 import type { MonoTypeOperatorFunction, SchedulerLike, OperatorFunction, ObservableInput, ObservedValueOf } from '../types.js';
 import { isValidDate } from '../util/isDate.js';
-import type { Subscription} from '@rxjs/observable';
+import type { Subscription } from '@rxjs/observable';
 import { Observable, from, operate } from '@rxjs/observable';
 import { executeSchedule } from '../util/executeSchedule.js';
 
