@@ -12,6 +12,7 @@ typings/
 
 # Generated
 dist/
+dist-bench/
 .tshy-build
 
 # Import location artifacts
