@@ -919,7 +919,7 @@ export class Observable<T> implements Subscribable<T> {
    * main();
    * ```
    */
-  [Symbol.asyncIterator](): AsyncGenerator<T, void, void> {
+  [Symbol.asyncIterator](): AsyncGenerator<T, void, void> & AsyncDisposable {
     let subscription: Subscription | undefined;
     let hasError = false;
     let error: unknown;

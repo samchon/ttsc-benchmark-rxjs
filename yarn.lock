@@ -2747,6 +2747,9 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.9.5.tgz#10491ccf4f63c814d4149e0316541476ea603602"
   integrity sha512-1q+mykKE3Vot1kaFJIDoUFv5TuW+QQVaf2FmTT9krg86pQrGStOSJJ0Zil7CFagyxDuouTepzt5Y5TVzyajOdQ==
 
+"@rxjs/observable@link:packages/observable":
+  version "8.0.0-alpha.14"
+
 "@schematics/angular@13.3.11":
   version "13.3.11"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-13.3.11.tgz#7e3264c0da1ab16967eed85ef79c5445735c6160"
@@ -2972,6 +2975,40 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.4.tgz#0b92dcc0cc1c81f6f306a381f28e31b1a56536e9"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
+
+"@ttsc/darwin-arm64@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/darwin-arm64/-/darwin-arm64-0.12.4.tgz#f2174cb39a28a35892b76fab4dfb32c32e78eeeb"
+  integrity sha512-Jq6XvSprpR/AcAaP+60XywGdwRakedYl8sFXPZFuMiju/wt08fle6mo5QAPDxjoahHH6gdVI78TURFVSw6tMaQ==
+
+"@ttsc/darwin-x64@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/darwin-x64/-/darwin-x64-0.12.4.tgz#b0b5c232780045bf2dbdbb32c9c0b4c4b7decfad"
+  integrity sha512-+/0ZScCT8xcf0pqhj+Oloz0m/Xl/gD0+JcxTI8MRuK1S3bxvNQiLNX+LLEQ+5NS2yVDoprTMWWZ3P3N4TeqpvQ==
+
+"@ttsc/linux-arm64@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/linux-arm64/-/linux-arm64-0.12.4.tgz#fb09a7a37da3600bb8ee0fbf4a32087a510fc234"
+  integrity sha512-BG8vDcDGkmBVNpcB4uR+VGeO/tEfLCpRW+5RJqp3wNuuiP7/BXhmetMIO/ia0JFDJ440Zb/AVmWSArDdIjl/2Q==
+
+"@ttsc/linux-arm@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/linux-arm/-/linux-arm-0.12.4.tgz#960f30a8778566893515be17c661583a8ae0117d"
+  integrity sha512-5viZeo7lGn5MHOM8OGQ7iYuo0oqgLhvRAounPLx0ANm7NQuvgHxRUJQjM25HNAX7awG6ybU6fY3V8S//4GY+mw==
+
+"@ttsc/linux-x64@0.12.4", "@ttsc/linux-x64@file:../../../../../../../../../tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz", "@ttsc/linux-x64@file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz":
+  version "0.12.4"
+  resolved "file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz#c4326c2f477af5d9f6dded98d12bc971aca3120a"
+
+"@ttsc/win32-arm64@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/win32-arm64/-/win32-arm64-0.12.4.tgz#69c9e59ced2208e240d60c8d517d507ed1cf91ca"
+  integrity sha512-MvF+wWLpnG/DLmBorxL53cbmfjw8LdZ/70XLEYQIJdpO1C0U3Z1lUS/gM8PKzrM/IFx/3sGEvMM9z4eheuOOgQ==
+
+"@ttsc/win32-x64@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@ttsc/win32-x64/-/win32-x64-0.12.4.tgz#d4f7048e9075e6a6124a8a7ae1efcb6e833371dc"
+  integrity sha512-yKPHwv2kLlDXPvCvy4bK221LYbrHaQ3aR1KBKvsaKtOACoPwtuWVPSxQnSTJWuBZdDbtxXTU4/KOByZFERHuPA==
 
 "@types/archiver@^5.1.0":
   version "5.3.4"
@@ -3511,6 +3548,54 @@
   dependencies:
     "@typescript-eslint/types" "6.19.0"
     eslint-visitor-keys "^3.4.1"
+
+"@typescript/native-preview-darwin-arm64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-darwin-arm64/-/native-preview-darwin-arm64-7.0.0-dev.20260521.1.tgz#9c550237e2ed405a7660d1792af97813d35078e6"
+  integrity sha512-DfwzV0Qc8VDHqQXG4uc0+bbHB23u/Twrl+D7H1Izo16MmwBse3kjdKAKCJDqeboYvofx/AetKZP9yo+VxjvOWg==
+
+"@typescript/native-preview-darwin-x64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-darwin-x64/-/native-preview-darwin-x64-7.0.0-dev.20260521.1.tgz#7f2fa0a54022d49157b5479f6580fb1d61fbaac8"
+  integrity sha512-tTtyAkx7VUgfRa+DGJa1/nR40/LsdbA5EUlSTnGV/3I6la7JB5hJxhWz+B99WjHjJbZrMrLxf6S4YHTj13GWew==
+
+"@typescript/native-preview-linux-arm64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-linux-arm64/-/native-preview-linux-arm64-7.0.0-dev.20260521.1.tgz#5fba147671cbcbd297d12c3c6856613aa77f2913"
+  integrity sha512-IMyER6SquHD/0rr7727rqTILbY7XWATFp/O1l9CRAEs9E0OY0yPmyHXFT8MYja5m4+isgsMBh618zLt8Ex1h/w==
+
+"@typescript/native-preview-linux-arm@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-linux-arm/-/native-preview-linux-arm-7.0.0-dev.20260521.1.tgz#b2807aa5ce8de0b03f7ba9fec554cea7a8a283ae"
+  integrity sha512-R+KzxOA6M6AX4p757xNBy8bZgNTXUxjQkEnJk2UzDpB317pwBbrpOaOaIlgB6Giw79jvKH2E428VWhXAk4ydlw==
+
+"@typescript/native-preview-linux-x64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-linux-x64/-/native-preview-linux-x64-7.0.0-dev.20260521.1.tgz#486bcf6516a87a9629175cc5f9b83d10d8786a19"
+  integrity sha512-xLfDu7chsn0TJagd2oX2Z4nj3m/TRiwQmijGUgF8O0+IblKgbQcp6Egjd9VCRsGwfPidoLgElVrfcAkYfUSnGA==
+
+"@typescript/native-preview-win32-arm64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-win32-arm64/-/native-preview-win32-arm64-7.0.0-dev.20260521.1.tgz#b4367d84653e88dc0c12a828116573ea420c833f"
+  integrity sha512-+kcewCXj0A0bpJOx/BVjjcTs8vglcxfYuZdzyQl8O9vM1GoA7LF+jUf5Z7E2qlpKt5By/8c7wXp+4/ACM9drzQ==
+
+"@typescript/native-preview-win32-x64@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview-win32-x64/-/native-preview-win32-x64-7.0.0-dev.20260521.1.tgz#4e4a85ef9d06bb0b0a9daebc0188ab2102fc130c"
+  integrity sha512-Uh2PjzN3S/TGTDERgaT4O5rexiWO0nn0oXdCnBVyo0d1rbgDxq/zxsSOZdzdrQn6BRGa8x+6fVtrVFcIw4B+7w==
+
+"@typescript/native-preview@7.0.0-dev.20260521.1":
+  version "7.0.0-dev.20260521.1"
+  resolved "https://registry.yarnpkg.com/@typescript/native-preview/-/native-preview-7.0.0-dev.20260521.1.tgz#384d55c3b3b7dfc86039102008a2aca99bbe6734"
+  integrity sha512-JhaYbA+BVmHfya8h4QA1HsX6EZr7qaLOoOOHEwwR1ps42wN8LFDSSTbf1y2nPO3h927yh2Udl7gto1u7WGXjAQ==
+  optionalDependencies:
+    "@typescript/native-preview-darwin-arm64" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-darwin-x64" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-linux-arm" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-linux-arm64" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-linux-x64" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-win32-arm64" "7.0.0-dev.20260521.1"
+    "@typescript/native-preview-win32-x64" "7.0.0-dev.20260521.1"
 
 "@ungap/structured-clone@^1.2.0":
   version "1.2.0"
@@ -16343,6 +16428,18 @@ tsutils@^3.21.0:
   integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
+
+"ttsc@file:../../../../../../../../../tmp/ttsc-tgz/ttsc-0.12.4.tgz":
+  version "0.12.4"
+  resolved "file:../../../../../../../../../tmp/ttsc-tgz/ttsc-0.12.4.tgz#bc720536a65ea066436ce7fa7f0a51dd93796839"
+  optionalDependencies:
+    "@ttsc/darwin-arm64" "0.12.4"
+    "@ttsc/darwin-x64" "0.12.4"
+    "@ttsc/linux-arm" "0.12.4"
+    "@ttsc/linux-arm64" "0.12.4"
+    "@ttsc/linux-x64" "0.12.4"
+    "@ttsc/win32-arm64" "0.12.4"
+    "@ttsc/win32-x64" "0.12.4"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
