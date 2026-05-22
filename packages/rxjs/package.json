@@ -70,7 +70,8 @@
     "build": "yarn build:clean && yarn compile && node ./tools/generate-alias.js",
     "watch": "nodemon -w \"src/\" -w \"spec/\" -e ts -x npm test",
     "watch:dtslint": "nodemon -w \"src/\" -w \"spec-dtslint/\" -e ts -x yarn dtslint",
-    "copy_common_package_files": "node ../../scripts/copy-common-package-files.js"
+    "copy_common_package_files": "node ../../scripts/copy-common-package-files.js",
+    "build:bench": "ttsc -p tsconfig.bench.json"
   },
   "repository": {
     "type": "git",
@@ -120,7 +121,7 @@
   },
   "homepage": "https://rxjs.dev",
   "dependencies": {
-    "@rxjs/observable": "8.0.0-alpha.14"
+    "@rxjs/observable": "link:../observable"
   },
   "devDependencies": {
     "@swc/core": "^1.2.128",
@@ -149,7 +150,9 @@
     "sinon": "^15.0.1",
     "sinon-chai": "^3.7.0",
     "source-map-support": "0.5.3",
-    "web-streams-polyfill": "^3.0.2"
+    "web-streams-polyfill": "^3.0.2",
+    "ttsc": "file:/tmp/ttsc-tgz/ttsc-0.12.4.tgz",
+    "@typescript/native-preview": "7.0.0-dev.20260517.1"
   },
   "files": [
     "dist/cjs/**/!(*.tsbuildinfo)",
@@ -181,6 +184,12 @@
           "^build"
         ]
       }
+    }
+  },
+  "packageManager": "pnpm@10.10.0",
+  "pnpm": {
+    "overrides": {
+      "@ttsc/linux-x64": "file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz"
     }
   }
 }

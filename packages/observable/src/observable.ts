@@ -1003,6 +1003,10 @@ export class Observable<T> implements Subscribable<T> {
       [Symbol.asyncIterator]() {
         return this;
       },
+      async [Symbol.asyncDispose]() {
+        subscription?.unsubscribe();
+        handleComplete();
+      },
     };
   }
 }

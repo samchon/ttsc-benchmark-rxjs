@@ -147,7 +147,7 @@ const DEFAULT_WEBSOCKET_CONFIG = {
 const WEBSOCKETSUBJECT_INVALID_ERROR_OBJECT =
   'WebSocketSubject.error must be called with an object with an error code, and an optional reason: { code: number, reason: string }';
 
-export type WebSocketMessage = string | ArrayBuffer | Blob | ArrayBufferView;
+export type WebSocketMessage = string | ArrayBuffer | Blob | ArrayBufferView<ArrayBuffer>;
 
 export class WebSocketSubject<In, Out = In> extends Observable<Out> {
   private _config: WebSocketSubjectConfig<In, Out> &

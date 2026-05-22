@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2022",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "bundler",
+    "stripInternal": true,
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "noEmit": false,
+    "outDir": "dist-bench",
+    "rootDir": "..",
+    "paths": {
+      "@rxjs/observable": ["../observable/src/index"]
+    }
+  },
+  "include": ["src/**/*.ts", "../observable/src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dist-bench",
+    "../observable/src/**/*.spec.ts"
+  ]
+}
