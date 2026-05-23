@@ -22,5 +22,6 @@
       "rxjs/fetch": ["./src/fetch/index"],
       "rxjs/internal/*": ["./src/internal/*"]
     }
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
