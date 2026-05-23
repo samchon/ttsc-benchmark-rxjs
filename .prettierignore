@@ -1,0 +1,9 @@
+# Build artifacts left by tshy / typescript --watch that prettier --check would
+# otherwise flag. They are not committed (and not in .gitignore in the upstream
+# repo because they live next to the .ts sources under src/), but they trip
+# prettier --check during the benchmark.
+**/*.d.ts
+**/*.d.ts.map
+**/*.js
+**/*.js.map
+**/*.tsbuildinfo
