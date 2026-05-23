@@ -1,4 +1,4 @@
-import type { Observable, Subscriber} from '@rxjs/observable';
+import type { Observable, Subscriber } from '@rxjs/observable';
 import { operate } from '@rxjs/observable';
 
 /**

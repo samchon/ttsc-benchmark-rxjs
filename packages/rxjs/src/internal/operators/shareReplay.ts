@@ -159,8 +159,7 @@ export function shareReplay<T>(
   let bufferSize: number;
   let refCount = false;
   if (configOrBufferSize && typeof configOrBufferSize === 'object') {
-    ({ bufferSize = Infinity, windowTime = Infinity, scheduler } = configOrBufferSize);
-    refCount = configOrBufferSize.refCount ?? false;
+    ({ bufferSize = Infinity, windowTime = Infinity, refCount = false, scheduler } = configOrBufferSize);
   } else {
     bufferSize = (configOrBufferSize ?? Infinity) as number;
   }

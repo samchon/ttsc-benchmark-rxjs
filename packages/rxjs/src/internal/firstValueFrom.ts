@@ -1,4 +1,4 @@
-import type { Observable} from '@rxjs/observable';
+import type { Observable } from '@rxjs/observable';
 import { Subscriber } from '@rxjs/observable';
 import { EmptyError } from './util/EmptyError.js';
 

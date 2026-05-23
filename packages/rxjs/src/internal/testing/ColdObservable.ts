@@ -1,4 +1,4 @@
-import type { Subscriber} from '@rxjs/observable';
+import type { Subscriber } from '@rxjs/observable';
 import { Observable, Subscription } from '@rxjs/observable';
 import type { TestMessage } from './TestMessage.js';
 import { observeNotification } from '../Notification.js';

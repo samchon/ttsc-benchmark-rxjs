@@ -1,4 +1,4 @@
-import type { Subscription} from '@rxjs/observable';
+import type { Subscription } from '@rxjs/observable';
 import { Observable, operate, from } from '@rxjs/observable';
 import { EMPTY } from '../observable/empty.js';
 import type { MonoTypeOperatorFunction, ObservableInput } from '../types.js';

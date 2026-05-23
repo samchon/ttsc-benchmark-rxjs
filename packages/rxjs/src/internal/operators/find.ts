@@ -1,4 +1,4 @@
-import type { Subscriber} from '@rxjs/observable';
+import type { Subscriber } from '@rxjs/observable';
 import { Observable, operate } from '@rxjs/observable';
 import type { OperatorFunction, TruthyTypesOf } from '../types.js';
 

@@ -1,5 +1,5 @@
 import type { SchedulerLike, ReadableStreamLike } from '../types.js';
-import type { Observable} from '@rxjs/observable';
+import type { Observable } from '@rxjs/observable';
 import { readableStreamLikeToAsyncGenerator } from '@rxjs/observable';
 import { scheduleAsyncIterable } from './scheduleAsyncIterable.js';
 
