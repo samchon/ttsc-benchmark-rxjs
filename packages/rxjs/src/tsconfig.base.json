@@ -2,11 +2,13 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
+    "rootDir": "../..",
     "paths": {
       "rxjs": ["./"],
-      "rxjs/*": ["./*"]
+      "rxjs/*": ["./*"],
+      "@rxjs/observable": ["../../observable/src/index"]
     }
   },
-  "include": ["./**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["./**/*.ts", "../../observable/src/**/*.ts"],
+  "exclude": ["node_modules", "../dist", "../../observable/src/**/*.spec.ts"]
 }
