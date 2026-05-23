@@ -54,7 +54,7 @@ export function skipWhile<T>(predicate: (value: T, index: number) => boolean): M
       let taking = false;
       let index = 0;
       source.subscribe(
-        operate({ destination, next: (value) => (taking || (taking = !predicate(value, index++))) && destination.next(value) }),
+        operate({ destination, next: (value) => (taking || (taking = !predicate(value, index++))) && destination.next(value) })
       );
     });
 }

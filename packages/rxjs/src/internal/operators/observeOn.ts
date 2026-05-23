@@ -63,7 +63,7 @@ export function observeOn<T>(scheduler: SchedulerLike, delay = 0): MonoTypeOpera
           next: (value) => executeSchedule(destination, scheduler, () => destination.next(value), delay),
           error: (err) => executeSchedule(destination, scheduler, () => destination.error(err), delay),
           complete: () => executeSchedule(destination, scheduler, () => destination.complete(), delay),
-        }),
+        })
       );
     });
 }

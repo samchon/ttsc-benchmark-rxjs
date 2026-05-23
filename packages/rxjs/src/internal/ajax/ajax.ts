@@ -163,7 +163,7 @@ function ajaxGetJSON<T>(url: string, headers?: Record<string, string>): Observab
       method: 'GET',
       url,
       headers,
-    }),
+    })
   );
 }
 

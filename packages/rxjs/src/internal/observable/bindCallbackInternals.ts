@@ -18,7 +18,7 @@ export function bindCallbackInternals(
       // The user provided a result selector.
       return function (this: any, ...args: any[]) {
         return mapOneOrManyArgs(resultSelector as any)(
-          (bindCallbackInternals(isNodeStyle, callbackFunc, scheduler) as any).apply(this, args),
+          (bindCallbackInternals(isNodeStyle, callbackFunc, scheduler) as any).apply(this, args)
         );
       };
     }

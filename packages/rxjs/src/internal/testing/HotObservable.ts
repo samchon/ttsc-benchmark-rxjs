@@ -25,7 +25,7 @@ export class HotObservable<T> extends Subject<T> {
     subscription.add(
       new Subscription(() => {
         this.logUnsubscribedFrame(index);
-      }),
+      })
     );
     subscription.add(super._subscribe(subscriber));
     return subscription;
@@ -33,12 +33,9 @@ export class HotObservable<T> extends Subject<T> {
 
   setup() {
     for (const { notification, frame } of this.messages) {
-      this.scheduler.schedule(
-        () => {
-          observeNotification(notification, this);
-        },
-        frame,
-      );
+      this.scheduler.schedule(() => {
+        observeNotification(notification, this);
+      }, frame);
     }
   }
 }

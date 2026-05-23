@@ -17,7 +17,7 @@ export class ColdObservable<T> extends Observable<T> {
     subscription.add(
       new Subscription(() => {
         this.logUnsubscribedFrame(index);
-      }),
+      })
     );
     this.scheduleMessages(subscriber);
     return subscription;
