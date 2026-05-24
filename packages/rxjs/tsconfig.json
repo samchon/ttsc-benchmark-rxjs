@@ -11,6 +11,7 @@
     "noEmit": true,
     "lib": ["esnext", "dom"],
     "target": "esnext",
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@rxjs/observable": ["../observable/src/index"],
