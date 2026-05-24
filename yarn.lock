@@ -16880,6 +16880,11 @@ typescript@6.0.0-dev.20260416:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260416.tgz#f15ee232292dd8f2189d5cc2bd5c67f419ff52fe"
   integrity "sha1-8V7iMikt2PIYnVzCvVxn9Bn/Uv4= sha512-64CCow5rQc6+oBAPqLtvZ8f3iz4WVCLwMVkg6/kOfMQlGshVOMkBhCXn+MMP4SX4Xtnz48VpD98FkptirMEuEQ=="
 
+typescript@6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.3.tgz#90251dc007916e972786cb94d74d15b185577d21"
+  integrity "sha1-kCUdwAeRbpcnhsuU100VsYVXfSE= sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="
+
 typescript@~4.5.4:
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
