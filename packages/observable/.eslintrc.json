@@ -1,27 +1,27 @@
 {
-  "extends": ["../../.eslintrc.json"],
-  "ignorePatterns": ["!**/*"],
+  "root": true,
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "files": ["src/**/*.ts"],
+      "parser": "@typescript-eslint/parser",
       "parserOptions": {
-        "project": ["./packages/observable/tsconfig.json"]
+        "ecmaVersion": "latest",
+        "sourceType": "module"
       },
-      "rules": {}
-    },
-    {
-      "files": ["*.ts", "*.tsx"],
-      "rules": {}
-    },
-    {
-      "files": ["*.js", "*.jsx"],
-      "rules": {}
-    },
-    {
-      "files": ["./package.json"],
-      "parser": "jsonc-eslint-parser",
+      "plugins": ["@typescript-eslint"],
       "rules": {
-        "@nx/dependency-checks": ["error"]
+        "no-var": "error",
+        "prefer-const": "error",
+        "eqeqeq": "error",
+        "object-shorthand": "error",
+        "no-unneeded-ternary": "error",
+        "prefer-template": "error",
+        "no-useless-rename": "error",
+        "dot-notation": "error",
+        "no-extra-boolean-cast": "error",
+        "no-useless-escape": "error",
+        "@typescript-eslint/prefer-as-const": "error",
+        "@typescript-eslint/prefer-namespace-keyword": "error"
       }
     }
   ]
