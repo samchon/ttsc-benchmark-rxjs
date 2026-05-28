@@ -19,8 +19,8 @@ export type NodeEventHandler = (...args: any[]) => void;
 // such as React Native
 export interface NodeCompatibleEventEmitter {
   // this should probably be `void | unknown` eventually
-  addListener(eventName: string, handler: NodeEventHandler): void | {};
-  removeListener(eventName: string, handler: NodeEventHandler): void | {};
+  addListener(eventName: string, handler: NodeEventHandler): void | NonNullable<unknown>;
+  removeListener(eventName: string, handler: NodeEventHandler): void | NonNullable<unknown>;
 }
 
 // Use handler types like those in @types/jquery. See:

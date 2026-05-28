@@ -20,7 +20,7 @@ describe('Observable', () => {
       });
 
       source.subscribe({
-        next: function (x) {
+        next(x) {
           expect(x).to.equal(1);
         },
         complete: done,
