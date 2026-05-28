@@ -1,7 +1,6 @@
 import type { ITtscLintConfig } from "@ttsc/lint";
 
 export default {
-  extends: "./lint.ignore.config.json",
   format: {
     printWidth: 140,
     tabWidth: 2,

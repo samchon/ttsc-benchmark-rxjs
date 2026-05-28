@@ -1,9 +1,0 @@
-{
-  "ignores": [
-    "**/*.d.ts",
-    "**/spec/**",
-    "**/spec-dtslint/**",
-    "**/dist/**",
-    "**/dist-bench/**"
-  ]
-}
