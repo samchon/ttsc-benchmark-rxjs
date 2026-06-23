@@ -1,0 +1,6 @@
+{
+  "extends": "./packages/rxjs/src/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
