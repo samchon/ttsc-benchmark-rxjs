@@ -151,9 +151,7 @@
     "sinon-chai": "^3.7.0",
     "source-map-support": "0.5.3",
     "web-streams-polyfill": "^3.0.2",
-    "ttsc": "file:/tmp/ttsc-tgz/ttsc-0.12.4.tgz",
-    "@ttsc/linux-x64": "file:/tmp/ttsc-tgz/ttsc-linux-x64-0.12.4.tgz",
-    "@typescript/native-preview": "7.0.0-dev.20260521.1"
+    "typescript": "7.0.1-rc"
   },
   "files": [
     "dist/cjs/**/!(*.tsbuildinfo)",
