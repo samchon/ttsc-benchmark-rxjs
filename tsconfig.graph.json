@@ -1,6 +1,13 @@
 {
   "extends": "./packages/rxjs/src/tsconfig.base.json",
   "compilerOptions": {
-    "noEmit": true
-  }
+    "noEmit": true,
+    "rootDir": "."
+  },
+  "include": [
+    "packages/rxjs/src/**/*.ts",
+    "packages/rxjs/spec/**/*.ts",
+    "packages/observable/src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "packages/rxjs/dist"]
 }
